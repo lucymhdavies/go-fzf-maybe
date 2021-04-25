@@ -58,5 +58,7 @@ func fzfMenu(title string, items []string) (string, error) {
 		return "", err
 	}
 
-	return outb.String(), nil
+	selected := strings.TrimSpace(outb.String())
+
+	return selected, nil
 }
