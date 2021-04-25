@@ -1,0 +1,6 @@
+github.com/GeertJohan/go.linenoise v0.0.0-20141120151038-1918ff89d613 h1:6icnpgpfaYbNFPvsZHrIPhUqNbubaeikWdpMdj40kp0=
+github.com/GeertJohan/go.linenoise v0.0.0-20141120151038-1918ff89d613/go.mod h1:hjDAY2N/A6k4IInagcBqLG/q8SyECV6TDzEu5dY0Mwg=
+github.com/johnnylee/tui v0.0.0-20140904225032-e62b5ad6e5b3 h1:rxxDqTcYOlsfNhEM7fZy2noDD6th0wF4IpK68KRoXS8=
+github.com/johnnylee/tui v0.0.0-20140904225032-e62b5ad6e5b3/go.mod h1:+Uym2hQE4Vn27TcoEJim0PArMrHAwvPyJJfFIAI9UXA=
+github.com/moby/moby v20.10.6+incompatible h1:3wn5wW3KwjAv8Z36VHdbvaqvY273JiWUDFuudH0z5Vs=
+github.com/moby/moby v20.10.6+incompatible/go.mod h1:fDXVQ6+S340veQPv35CzDahGBmHsiclFwfEygB/TWMc=
