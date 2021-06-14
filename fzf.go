@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/johnnylee/tui"
+	"github.com/skybet/tui"
 )
 
 func Menu(title string, items []string) (string, error) {

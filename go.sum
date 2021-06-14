@@ -1,6 +1,12 @@
-github.com/GeertJohan/go.linenoise v0.0.0-20141120151038-1918ff89d613 h1:6icnpgpfaYbNFPvsZHrIPhUqNbubaeikWdpMdj40kp0=
-github.com/GeertJohan/go.linenoise v0.0.0-20141120151038-1918ff89d613/go.mod h1:hjDAY2N/A6k4IInagcBqLG/q8SyECV6TDzEu5dY0Mwg=
-github.com/johnnylee/tui v0.0.0-20140904225032-e62b5ad6e5b3 h1:rxxDqTcYOlsfNhEM7fZy2noDD6th0wF4IpK68KRoXS8=
-github.com/johnnylee/tui v0.0.0-20140904225032-e62b5ad6e5b3/go.mod h1:+Uym2hQE4Vn27TcoEJim0PArMrHAwvPyJJfFIAI9UXA=
+github.com/chzyer/logex v1.1.10 h1:Swpa1K6QvQznwJRcfTfQJmTE72DqScAa40E+fbHEXEE=
+github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
+github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e h1:fY5BOSpyZCqRo5OhCuC+XN+r/bBCmeuuJtjz+bCNIf8=
+github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
+github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1 h1:q763qf9huN11kDQavWsoZXJNW3xEE4JJyHa5Q25/sd8=
+github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=
 github.com/moby/moby v20.10.6+incompatible h1:3wn5wW3KwjAv8Z36VHdbvaqvY273JiWUDFuudH0z5Vs=
 github.com/moby/moby v20.10.6+incompatible/go.mod h1:fDXVQ6+S340veQPv35CzDahGBmHsiclFwfEygB/TWMc=
+github.com/skybet/tui v0.0.0-20171016082405-8d41a0a74170 h1:39YT322Wqa6I+JFOUupPv2yPQjDsdqM+eiIt4SNI54M=
+github.com/skybet/tui v0.0.0-20171016082405-8d41a0a74170/go.mod h1:Omvz4RawtF9DSqf8U9VQ/MIaZbirJq3M8r9HD+NxBmE=
+golang.org/x/sys v0.0.0-20210611083646-a4fc73990273 h1:faDu4veV+8pcThn4fewv6TVlNCezafGoC1gM/mxQLbQ=
+golang.org/x/sys v0.0.0-20210611083646-a4fc73990273/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
