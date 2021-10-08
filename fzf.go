@@ -6,10 +6,9 @@ import (
 	"log"
 	"os"
 	"os/exec"
-	"strconv"
 	"strings"
 
-	"github.com/skybet/tui"
+	"github.com/manifoldco/promptui"
 )
 
 func Menu(title string, items []string) (string, error) {
@@ -18,15 +17,23 @@ func Menu(title string, items []string) (string, error) {
 
 	// Nope. Fallback to tui.Menu
 	if err != nil {
-		var menuItems []string
-		for i, j := range items {
-			menuItems = append(menuItems, []string{strconv.Itoa(i), j}...)
-		}
-		x := tui.Menu(title, nil, menuItems...)
+		searcher := func(input string, index int) bool {
+			item := items[index]
+			name := strings.Replace(strings.ToLower(item), " ", "", -1)
+			input = strings.Replace(strings.ToLower(input), " ", "", -1)
 
-		if i, err := strconv.Atoi(x); err == nil {
-			return items[i], nil
+			return strings.Contains(name, input)
 		}
+		prompt := promptui.Select{
+			Label:    title,
+			Items:    items,
+			Size:     len(items),
+			Searcher: searcher,
+		}
+
+		_, result, err := prompt.Run()
+
+		return result, err
 	}
 
 	return fzfMenu(title, items)
